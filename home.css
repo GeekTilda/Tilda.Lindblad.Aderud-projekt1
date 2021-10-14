@@ -11,4 +11,15 @@ header {
   background-color: #ffd5c2;
   font-size: 40px;
   font-family: "Century Gothic";
+  text-decoration: none;
+}
+
+nav :hover {
+  color: #588b8b;
+  transition: all 0.2s ease 0s;
+}
+
+a {
+  color: black;
+  text-decoration: none;
 }
