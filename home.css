@@ -53,15 +53,31 @@ h1 {
 
 article {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   margin: 10% auto;
   font-family: "Candara";
+  align-self: center auto;
+  width: 40%;
+  align-content: center;
+  border-color: black;
+  border-style: solid;
 }
 
 h2 {
+  margin-top: 10px;
   font-size: 35px;
 }
 
 h3 {
   font-size: 25px;
+  align-self: center;
+}
+
+.line2 {
+  width: 20%;
+  height: 2px;
+  margin: 10px auto;
+  border-color: black;
+  background: black;
 }
