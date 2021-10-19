@@ -11,7 +11,7 @@ header {
   background-color: #ffd5c2;
   font-size: 40px;
   font-family: "Century Gothic";
-  text-decoration: none;
+  text-decoration-style: none;
   height: 70px;
 }
 
@@ -20,14 +20,6 @@ nav :hover {
   transition: all 0.2s ease 0s;
 }
 
-a {
-  color: black;
-  text-decoration: none;
-  margin: 10px;
-}
-
-h1 {
-  font-size: 40px;
-  font-weight: 1500;
-  text-decoration: underline;
+.thispage {
+  color: aquamarine;
 }
