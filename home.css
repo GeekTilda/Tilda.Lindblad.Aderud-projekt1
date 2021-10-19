@@ -31,3 +31,37 @@ span {
   font-weight: 1500;
   text-decoration: underline;
 }
+
+h1 {
+  font-size: 50px;
+  align-self: center;
+  margin-top: 60px;
+  font-family: "Century Gothic";
+  text-align: center;
+}
+
+.line1 {
+  width: 10%;
+  height: 2px;
+  margin-bottom: 7px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 60px;
+  border-color: #f28f3b;
+  background-color: #f28f3b;
+}
+
+article {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10% auto;
+  font-family: "Candara";
+}
+
+h2 {
+  font-size: 35px;
+}
+
+h3 {
+  font-size: 25px;
+}
