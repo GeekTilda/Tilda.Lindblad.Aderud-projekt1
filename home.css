@@ -67,6 +67,7 @@ article {
 h2 {
   margin-top: 10px;
   font-size: 35px;
+  align-self: center;
 }
 
 h3 {
@@ -87,4 +88,29 @@ h3 {
   margin: 10px;
   border-radius: 20px;
   align-self: center;
+}
+
+.inrikt {
+  font-size: 12px;
+  color: #f28f3b;
+}
+
+p {
+  text-align: center;
+  color: #c8553d;
+}
+
+.langu {
+  color: black;
+}
+
+.erfar {
+  font-size: 20px;
+  text-decoration: underline;
+  color: black;
+}
+
+.text {
+  display: flex;
+  flex-wrap: wrap;
 }
