@@ -81,3 +81,10 @@ h3 {
   border-color: black;
   background: black;
 }
+
+.Anna {
+  width: 30%;
+  margin: 10px;
+  border-radius: 20px;
+  align-self: center;
+}
