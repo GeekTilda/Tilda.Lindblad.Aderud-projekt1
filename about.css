@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+/* HEADER */
+
 header {
   display: flex;
   justify-content: space-between;
@@ -35,4 +37,14 @@ span {
 
 .home {
   font-size: 40px;
+}
+
+/* SITE */
+
+h1 {
+  font-size: 300%;
+  font-family: "Century Gothic";
+  text-decoration: underline;
+  text-align: center;
+  margin: 2% auto;
 }
