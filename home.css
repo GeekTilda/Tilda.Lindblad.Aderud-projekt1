@@ -62,6 +62,11 @@ h1 {
   background-color: #f28f3b;
 }
 
+.uppvisningscv {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
 article {
   display: flex;
   flex-direction: column;
@@ -167,4 +172,12 @@ p {
 .underskrift {
   width: 100px;
   margin: 10px auto;
+}
+
+.line4 {
+  border: #c8553d solid;
+  height: 500px;
+  left: 50%;
+  margin: auto;
+  top: 0;
 }
