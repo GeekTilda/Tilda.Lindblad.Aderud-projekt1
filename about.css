@@ -44,7 +44,31 @@ span {
 h1 {
   font-size: 300%;
   font-family: "Century Gothic";
-  text-decoration: underline;
   text-align: center;
-  margin: 2% auto;
+  margin: 3% auto;
+  background-color: #588b8b;
+  color: white;
+}
+
+img {
+  margin: 3% auto;
+  width: 25%;
+}
+
+.bilder {
+  display: flex;
+  align-self: center;
+  align-items: center;
+}
+
+.bild-andreas {
+  display: flex;
+  flex-wrap: wrap;
+  border: #588b8b solid;
+}
+
+.img-andreas {
+  border: #f28f3b solid;
+  padding: 1%;
+  width: 30%;
 }
