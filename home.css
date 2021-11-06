@@ -5,13 +5,11 @@
 }
 
 /* HEADER */
-
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #ffd5c2;
-  font-size: 150%;
   font-family: "Century Gothic";
   text-decoration: none;
   height: 70px;
@@ -26,10 +24,11 @@ a {
   color: black;
   text-decoration: none;
   margin: 10px;
+  font-size: 150%;
 }
 
 span {
-  font-size: 40px;
+  font-size: 150%;
   font-weight: 1500;
   text-decoration: underline;
 }
