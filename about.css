@@ -11,7 +11,6 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: #ffd5c2;
-  font-size: 150%;
   font-family: "Century Gothic";
   text-decoration: none;
   height: 70px;
@@ -26,6 +25,7 @@ a {
   color: black;
   text-decoration: none;
   margin: 10px;
+  font-size: 150%;
 }
 
 span {
@@ -36,10 +36,10 @@ span {
 }
 
 .home {
-  font-size: 40px;
+  font-size: 35px;
 }
 
-/* SITE */
+/* PEOPLE */
 
 h1 {
   font-size: 300%;
@@ -136,8 +136,159 @@ img {
   font-family: "Candara";
 }
 
+/* OTHER */
+
 .fakta {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+}
+
+.questi h1 {
+  background-color: #588b8b;
+  font-size: 35px;
+}
+
+.telefon {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-left: 10%;
+  width: 80%;
+  justify-content: space-between;
+}
+
+.telefon span {
+  font-size: 30px;
+  font-family: "Century Gothic";
+  background-color: transparent;
+}
+
+.line1 {
+  width: 70%;
+  margin: auto;
+  height: 2px;
+  border-color: black;
+  background-color: black;
+}
+
+.line2 {
+  width: 51%;
+  margin: auto;
+  height: 2px;
+  border-color: black;
+  background-color: black;
+}
+
+.line3 {
+  width: 50%;
+  margin: auto;
+  height: 2px;
+  border-color: black;
+  background-color: black;
+}
+
+.line4 {
+  width: 61%;
+  margin: auto;
+  height: 2px;
+  border-color: black;
+  background-color: black;
+}
+
+.fråga0 {
+  display: flex;
+  width: 95%;
+  margin: auto;
+  justify-content: space-between;
+  margin-bottom: 5%;
+}
+
+.fråga1 {
+  display: flex;
+  border: solid #588b8b 5px;
+  width: 35%;
+  flex-wrap: wrap;
+}
+
+.fråga1 h2 {
+  font-family: "Century Gothic";
+  font-size: 30px;
+  margin-bottom: 15px;
+  margin: 5px;
+}
+
+.fråga1 p {
+  font-family: "Candara";
+  font-size: 20px;
+  margin: 5px;
+}
+
+.fråga01 {
+  width: 60%;
+}
+
+.fråga2 {
+  display: flex;
+  border: solid #f28f3b 5px;
+  flex-wrap: wrap;
+  margin-bottom: 2%;
+}
+
+.fråga2 h2 {
+  font-family: "Century Gothic";
+  font-size: 30px;
+  margin-bottom: 15px;
+  margin: 5px;
+}
+
+.fråga2 p {
+  font-family: "Candara";
+  font-size: 20px;
+  margin: 5px;
+}
+
+.fråga02 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.fråga3 {
+  display: flex;
+  flex-wrap: wrap;
+  border: solid #ffd5c2 5px;
+  width: 48%;
+}
+
+.fråga3 h2 {
+  font-family: "Century Gothic";
+  font-size: 30px;
+  margin-bottom: 15px;
+  margin: 5px;
+}
+
+.fråga3 p {
+  font-family: "Candara";
+  font-size: 20px;
+  margin: 5px;
+}
+
+.fråga4 {
+  display: flex;
+  flex-wrap: wrap;
+  border: solid #c8553d 5px;
+  width: 48%;
+}
+
+.fråga4 h2 {
+  font-family: "Century Gothic";
+  font-size: 30px;
+  margin-bottom: 15px;
+  margin: 5px;
+}
+
+.fråga4 p {
+  font-family: "Candara";
+  font-size: 20px;
+  margin: 5px;
 }
