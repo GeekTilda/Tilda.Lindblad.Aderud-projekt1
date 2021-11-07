@@ -38,3 +38,125 @@ span {
 .home {
   font-size: 35px;
 }
+
+/* SITE */
+
+.fråga {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 2% auto;
+  width: 90%;
+}
+
+.fråga h1 {
+  font-size: 40px;
+  font-family: "Century Gothic";
+}
+
+.line1 {
+  width: 65%;
+  margin: auto;
+  height: 2px;
+  border-color: black;
+  background-color: black;
+}
+
+.viktigast {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: space-evenly;
+}
+
+.viktigast h1 {
+  font-family: "Century Gothic";
+  font-size: 30px;
+  background-color: #ffd5c2;
+  border-radius: 50%;
+}
+
+.text {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 80%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.text p {
+  font-family: "Candara";
+  font-size: 20px;
+  margin: 2%;
+}
+
+/* ÖVRIG BRA INFO */
+
+.bra {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 70%;
+  margin: 3% auto;
+}
+
+.bra h1 {
+  font-size: 40px;
+  font-family: "Century Gothic";
+  background-color: #588b8b;
+  border-radius: 5px;
+  width: 60%;
+  text-align: center;
+  color: white;
+}
+
+.bra p {
+  background-color: #588b8b;
+  border-radius: 50%;
+  font-size: 50px;
+  color: transparent;
+}
+
+.övrig {
+  display: flex;
+  width: 90%;
+  margin: 3% auto;
+  justify-content: space-between;
+}
+
+.övrig p {
+  text-decoration: underline;
+  word-break: break-all;
+  margin: 1%;
+  font-family: "Candara";
+}
+
+.länkar {
+  display: flex;
+  border: solid #c8553d 5px;
+  width: 40%;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.info {
+  display: flex;
+  border: solid #f28f3b 5px;
+  width: 58%;
+  flex-direction: column;
+}
+
+.info h1 {
+  font-size: 30px;
+  font-family: "Century Gothic";
+  margin: 2%;
+}
+
+.info li {
+  font-size: 25px;
+  font-family: "Candara";
+  margin-left: 5%;
+}
