@@ -38,3 +38,92 @@ span {
 .home {
   font-size: 35px;
 }
+
+/* SITE */
+
+.varför {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 70%;
+  margin: auto;
+  margin-top: 3%;
+  justify-content: space-between;
+}
+
+.varför h1 {
+  font-family: "Century Gothic";
+  font-size: 40px;
+  background-color: #c8553d;
+  width: 60%;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+}
+
+.varför h2 {
+  background-color: #c8553d;
+  border-radius: 60px;
+  font-size: 40px;
+  color: transparent;
+}
+
+.varför p {
+  background-color: #c8553d;
+  color: transparent;
+  border-radius: 60px;
+  font-size: 30px;
+  height: 70%;
+  margin: 10px;
+}
+
+.line1 {
+  width: 65%;
+  margin: auto;
+  margin-top: 2%;
+  height: 3px;
+  border-color: black;
+  background-color: black;
+}
+
+.line2 {
+  border: black solid;
+  background-color: black;
+  width: 0.1%;
+  height: 500px;
+  margin: auto;
+}
+
+.uppvisningscvn {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 3%;
+}
+
+.cv1 {
+  margin-top: 4%;
+  margin-bottom: 4%;
+  display: flex;
+  border: #f28f3b solid 5px;
+  width: 40%;
+}
+
+.cv2 {
+  margin-top: 4%;
+  margin-bottom: 4%;
+  display: flex;
+  border: solid #ffd5c2 5px;
+  width: 40%;
+}
+
+.info {
+  display: flex;
+  flex-wrap: nowrap;
+  border: solid blue;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 5%;
+  justify-content: space-between;
+}
