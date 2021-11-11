@@ -49,6 +49,7 @@ span {
   margin: auto;
   margin-top: 3%;
   justify-content: space-between;
+  align-items: center;
 }
 
 .varför h1 {
@@ -66,6 +67,7 @@ span {
   border-radius: 60px;
   font-size: 40px;
   color: transparent;
+  margin: 5px;
 }
 
 .varför p {
@@ -121,9 +123,46 @@ span {
 .info {
   display: flex;
   flex-wrap: nowrap;
-  border: solid blue;
   width: 90%;
   margin: auto;
   margin-bottom: 5%;
   justify-content: space-between;
+}
+
+.info1 {
+  display: flex;
+  flex-wrap: wrap;
+  border: solid #c8553d 5px;
+  width: 40%;
+}
+
+.info1 h1 {
+  font-family: "Century Gothic";
+  text-decoration: underline;
+  font-size: 30px;
+  margin: 5px;
+}
+.info1 p {
+  font-family: "Candara";
+  font-size: 17px;
+  margin: 5px;
+}
+
+.info2 {
+  display: flex;
+  flex-wrap: wrap;
+  border: solid #c8553d 5px;
+  width: 40%;
+}
+
+.info2 h1 {
+  font-family: "Century Gothic";
+  text-decoration: underline;
+  font-size: 30px;
+  margin: 5px;
+}
+.info2 p {
+  font-family: "Candara";
+  font-size: 17px;
+  margin: 5px;
 }
