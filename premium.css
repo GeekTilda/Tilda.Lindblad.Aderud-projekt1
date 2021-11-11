@@ -94,6 +94,7 @@ span {
   width: 0.1%;
   height: 500px;
   margin: auto;
+  margin-top: 0%;
 }
 
 .uppvisningscvn {
@@ -104,36 +105,72 @@ span {
   margin-bottom: 3%;
 }
 
+.nr1 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 40%;
+}
+
+.nr2 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 40%;
+}
+
+/* CV 1 */
+
 .cv1 {
   margin-top: 4%;
   margin-bottom: 4%;
   display: flex;
   border: #f28f3b solid 5px;
-  width: 40%;
+  width: 100%;
 }
+
+.cv1 h1 {
+  font-family: "Century Gothic";
+  margin: auto;
+  text-decoration: underline;
+}
+
+/* CV 2 */
 
 .cv2 {
   margin-top: 4%;
   margin-bottom: 4%;
   display: flex;
+  flex-wrap: wrap;
   border: solid #ffd5c2 5px;
-  width: 40%;
+  width: 100%;
 }
 
-.info {
+.namn {
   display: flex;
   flex-wrap: nowrap;
-  width: 90%;
-  margin: auto;
-  margin-bottom: 5%;
-  justify-content: space-between;
+  width: 100%;
+  align-items: center;
 }
+
+.cv2 h1 {
+  font-family: "Candara";
+  margin: 5px;
+}
+
+.line3 {
+  width: 70%;
+  margin: auto;
+  margin-right: 2%;
+  height: 3px;
+  border-color: black;
+  background-color: black;
+}
+
+/* INFO 1 */
 
 .info1 {
   display: flex;
   flex-wrap: wrap;
   border: solid #c8553d 5px;
-  width: 40%;
 }
 
 .info1 h1 {
@@ -148,11 +185,12 @@ span {
   margin: 5px;
 }
 
+/* INFO 2 */
+
 .info2 {
   display: flex;
   flex-wrap: wrap;
   border: solid #c8553d 5px;
-  width: 40%;
 }
 
 .info2 h1 {
