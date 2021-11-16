@@ -88,11 +88,11 @@ span {
   background-color: black;
 }
 
-.line2 {
+.line10 {
   border: black solid;
   background-color: black;
   width: 0.1%;
-  height: 500px;
+  height: 1400px;
   margin: auto;
   margin-top: 0%;
 }
@@ -117,22 +117,6 @@ span {
   width: 40%;
 }
 
-/* CV 1 */
-
-.cv1 {
-  margin-top: 4%;
-  margin-bottom: 4%;
-  display: flex;
-  border: #f28f3b solid 5px;
-  width: 100%;
-}
-
-.cv1 h1 {
-  font-family: "Century Gothic";
-  margin: auto;
-  text-decoration: underline;
-}
-
 /* CV 2 */
 
 .cv2 {
@@ -152,8 +136,9 @@ span {
 }
 
 .cv2 h1 {
-  font-family: "Candara";
+  font-family: "Century Gothic";
   margin: 5px;
+  text-align: center;
 }
 
 .line3 {
@@ -177,7 +162,7 @@ span {
   font-family: "Century Gothic";
   text-decoration: underline;
   font-size: 30px;
-  margin: 5px;
+  margin: 2%;
 }
 .info1 p {
   font-family: "Candara";
@@ -197,10 +182,135 @@ span {
   font-family: "Century Gothic";
   text-decoration: underline;
   font-size: 30px;
-  margin: 5px;
+  margin: 2%;
 }
 .info2 p {
   font-family: "Candara";
   font-size: 17px;
   margin: 5px;
+}
+
+/* CV 1 */
+
+.cv1 {
+  margin-top: 4%;
+  margin-bottom: 4%;
+  display: flex;
+  border: #f28f3b solid 5px;
+  width: 100%;
+}
+
+.uppvisningscv {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: auto;
+  font-family: "Candara";
+  align-self: center auto;
+  align-content: center;
+}
+
+h2 {
+  margin-top: 10px;
+  font-size: 35px;
+  align-self: center;
+}
+
+h3 {
+  font-size: 25px;
+  align-self: center;
+}
+
+.line2 {
+  width: 20%;
+  height: 2px;
+  margin: 10px auto;
+  border-color: black;
+  background: black;
+}
+
+.kontakt {
+  display: flex;
+}
+
+.kontakt p {
+  font-size: 150%;
+  text-align: left;
+}
+
+.kontakt li {
+  font-size: 100%;
+  list-style: none;
+}
+
+.kontakter {
+  display: flex;
+  flex-wrap: wrap;
+  word-break: break-all;
+}
+
+.kontakter1 {
+  align-items: center;
+  margin: auto;
+}
+
+.Anna {
+  width: 30%;
+  margin: 4%;
+  border-radius: 20px;
+  border: solid #ffd5c2;
+}
+
+.inrikt {
+  font-size: 12px;
+  color: #f28f3b;
+}
+
+p {
+  text-align: center;
+  color: #c8553d;
+}
+
+.langu {
+  color: black;
+}
+
+.text {
+  font-size: 20px;
+  text-decoration: underline;
+  color: black;
+}
+
+.brödtext {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  margin: 20px;
+}
+
+.brödtext p {
+  text-align: justify;
+  font-weight: 550;
+}
+
+.erfar {
+  margin: 10px;
+}
+
+.underskrift {
+  width: 100px;
+  margin: 10px auto;
+}
+
+.line4 {
+  border: #c8553d solid;
+  height: 500px;
+  left: 50%;
+  margin: auto;
+  top: 0;
 }
