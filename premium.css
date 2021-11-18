@@ -135,10 +135,54 @@ span {
   align-items: center;
 }
 
+.namnojobb {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 20%;
+}
+
 .cv2 h1 {
   font-family: "Century Gothic";
   margin: 5px;
   text-align: center;
+}
+
+.svet {
+  width: 90%;
+  display: flex;
+  margin: auto;
+  color: #f28f3b;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.yrkeokontakt {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.yrkeokontakt p {
+  text-align: left;
+  font-family: "Candara";
+}
+
+.yrkeokontakt h1 {
+  text-align: left;
+  margin: 0%;
+  text-decoration: underline;
+  color: #c8553d;
+  font-family: "Candara";
+  font-size: 15px;
+}
+
+.svet img {
+  margin-top: 0%;
+  width: 30%;
+}
+
+.svet h1 {
+  font-size: 20px;
 }
 
 .line3 {
@@ -148,6 +192,43 @@ span {
   height: 3px;
   border-color: black;
   background-color: black;
+}
+
+.line5 {
+  width: 70%;
+  margin: auto;
+  margin-top: 1%;
+  height: 3px;
+  border-color: black;
+  background-color: black;
+}
+
+.Sara {
+  margin: 4%;
+  height: 20%;
+  border: dotted 5px black;
+}
+
+.utbildning2 {
+  display: flex;
+  border: solid blue;
+  height: 20%;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+.utbildning2 p {
+  font-size: 20px;
+  color: black;
+  font-family: "Candara";
+}
+
+.utbildning2 h2 {
+  margin: 0%;
+  font-size: 15px;
+  color: #c8553d;
+  font-family: "Candara";
 }
 
 /* INFO 1 */

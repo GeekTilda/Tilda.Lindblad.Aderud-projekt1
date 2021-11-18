@@ -142,6 +142,12 @@ span {
   flex-direction: column;
 }
 
+.länkar h1 {
+  font-size: 30px;
+  margin: 3%;
+  font-family: "Century Gothic";
+}
+
 .info {
   display: flex;
   border: solid #f28f3b 5px;
