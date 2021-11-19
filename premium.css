@@ -119,12 +119,21 @@ span {
 
 /* CV 2 */
 
+/*.cv2 {
+  margin-top: 4%;
+  margin-bottom: 4%;
+  display: flex;
+  flex-direction: column;
+  border: solid #ffd5c2 5px;
+  width: 100%;
+}
+
 .cv2 {
   margin-top: 4%;
   margin-bottom: 4%;
   display: flex;
-  flex-wrap: wrap;
-  border: solid #ffd5c2 5px;
+  flex-direction: column;
+  border: #f28f3b solid 5px;
   width: 100%;
 }
 
@@ -149,17 +158,17 @@ span {
 }
 
 .svet {
-  width: 90%;
   display: flex;
-  margin: auto;
   color: #f28f3b;
   flex-wrap: nowrap;
   justify-content: space-between;
 }
 
 .yrkeokontakt {
+  word-break: break-all;
   display: flex;
   flex-wrap: wrap;
+  margin: 4%;
 }
 
 .yrkeokontakt p {
@@ -171,14 +180,20 @@ span {
   text-align: left;
   margin: 0%;
   text-decoration: underline;
-  color: #c8553d;
+  color: #f28f3b;
   font-family: "Candara";
   font-size: 15px;
 }
 
+.kontakt2 h1 {
+  color: #c8553d;
+}
+
 .svet img {
-  margin-top: 0%;
+  object-fit: cover;
+  border: dotted 5px black;
   width: 30%;
+  margin: 4%;
 }
 
 .svet h1 {
@@ -197,16 +212,9 @@ span {
 .line5 {
   width: 70%;
   margin: auto;
-  margin-top: 1%;
   height: 3px;
   border-color: black;
   background-color: black;
-}
-
-.Sara {
-  margin: 4%;
-  height: 20%;
-  border: dotted 5px black;
 }
 
 .utbildning2 {
@@ -216,6 +224,7 @@ span {
   flex-wrap: wrap;
   text-align: center;
   justify-content: center;
+  margin: auto;
 }
 
 .utbildning2 p {
@@ -229,6 +238,182 @@ span {
   font-size: 15px;
   color: #c8553d;
   font-family: "Candara";
+}
+
+.ommig2 {
+  display: flex;
+  border: solid yellow;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+}
+
+.ommig2 p {
+  color: black;
+}
+
+.alltihop {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+*/
+
+/* CV 2.2 */
+
+.cv2 {
+  margin-top: 4%;
+  margin-bottom: 4%;
+  display: flex;
+  flex-direction: column;
+  border: #f28f3b solid 5px;
+  width: 100%;
+}
+
+.nameee {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 6%;
+  margin-bottom: 5%;
+}
+
+.Saraa {
+  width: 50%;
+  margin: auto;
+  border: dotted 5px;
+}
+
+.namn2 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  border: solid;
+  margin: auto;
+  font-family: "Century Gothic";
+  align-items: flex-start;
+  margin-left: 10%;
+  border-radius: 10%;
+  word-break: break-all;
+}
+
+.namn2 h1 {
+  margin: 2%;
+}
+
+.namn2 p {
+  margin: 2%;
+  color: #588b8b;
+}
+
+.line5 {
+  width: 70%;
+  margin: auto;
+  margin-right: 10%;
+  height: 2px;
+  border-color: black;
+  background-color: black;
+}
+
+.line6 {
+  width: 70%;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  height: 2px;
+  border-color: black;
+  background-color: black;
+}
+
+.Saraunder {
+  width: 40%;
+  margin: auto;
+}
+
+.om {
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Century Gothic";
+  margin: auto;
+}
+
+.yes {
+  display: flex;
+  width: 70%;
+  flex-wrap: nowrap;
+  margin: auto;
+}
+
+.språken {
+  display: flex;
+  font-family: "Century Gothic";
+  font-size: 10px;
+  flex-wrap: wrap;
+}
+
+.koninformation {
+  word-break: break-all;
+  display: flex;
+  font-family: "Century Gothic";
+  flex-wrap: wrap;
+}
+
+.koninformation h1 {
+  font-size: 20px;
+}
+
+.koninformation p {
+  font-size: 15px;
+  color: #588b8b;
+}
+
+.line7 {
+  background-color: black;
+  border: solid;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.tiderf {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  align-items: flex-start;
+  background-color: cadetblue;
+  border-radius: 10%;
+  font-family: "Century Gothic";
+}
+
+.tiderf h1 {
+  font-size: 30px;
+  margin-left: 2%;
+}
+
+.tiderf p {
+  color: white;
+  font-size: 20px;
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
+
+.utbildning2 {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  font-family: "Century Gothic";
+}
+
+.utbildning2 h2 {
+  font-size: 15px;
+  margin: 2%;
+}
+
+.utbildning2 p {
+  font-size: 20px;
+  color: #588b8b;
 }
 
 /* INFO 1 */
@@ -279,11 +464,6 @@ span {
   display: flex;
   border: #f28f3b solid 5px;
   width: 100%;
-}
-
-.uppvisningscv {
-  display: flex;
-  flex-wrap: nowrap;
 }
 
 article {
