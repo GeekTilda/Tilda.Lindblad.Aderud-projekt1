@@ -39,68 +39,83 @@ span {
   font-size: 35px;
 }
 
-/* Jes */
+/* SITE */
 
-.box {
+.site {
   display: flex;
-  border: solid red;
-  flex-wrap: wrap;
-  width: 90%;
+  border: solid yellow;
+}
+
+/* VÄNSTER */
+
+.skrivin {
+  display: flex;
+  border: solid blue;
+  flex-direction: column;
+  height: 100%;
+  width: 30%;
+  background-color: #ffd5c2;
+}
+
+.buttons {
+  display: flex;
   margin: auto;
   margin-top: 2%;
-}
-
-.box2 {
-  display: flex;
+  margin-bottom: 2%;
   border: solid green;
+  width: 70%;
   justify-content: space-between;
 }
 
-.text1 {
-  display: flex;
-  flex-direction: column;
-  border: solid;
-  width: 47%;
-  font-family: "Candara";
-  background-color: #ffd5c2;
-}
-
-.text1 p {
-  margin: 1%;
-  font-size: 20px;
-}
-
-.text1 h1 {
-  margin: 1%;
-}
-
-.text2 {
-  display: flex;
-  flex-direction: column;
-  border: solid;
-  width: 47%;
-  font-family: "Candara";
-  background-color: #ffd5c2;
-}
-
-.text2 p {
-  margin: 1%;
-  font-size: 20px;
-}
-
-.text2 h1 {
-  margin: 1%;
-}
-
-img {
+.but {
+  font-size: 40px;
+  color: transparent;
   border-radius: 50%;
-  margin-top: 2%;
-  height: 60%;
-  width: 20%;
+  background-color: white;
+  border: solid transparent;
 }
 
-.pic {
+.but:hover {
+  border: solid #f28f3b;
+}
+
+.but1 {
+  font-size: 40px;
+  color: transparent;
+  border-radius: 50%;
+  background-color: white;
+  border: solid black;
+}
+
+.but1:hover {
+  border: solid #f28f3b;
+}
+
+.but2 {
+  font-size: 40px;
+  color: transparent;
+  border-radius: 50%;
+  background-color: grey;
+  border: solid transparent;
+}
+
+.but2:hover {
+  border: solid #c8553d;
+}
+
+.skriv {
+  border: solid purple;
   display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+}
+
+/* CV */
+
+.cv {
+  display: flex;
+  border: solid 3px;
+  margin: auto;
+  height: 90%;
+  width: 60%;
 }
