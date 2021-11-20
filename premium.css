@@ -92,7 +92,7 @@ span {
   border: black solid;
   background-color: black;
   width: 0.1%;
-  height: 1400px;
+  height: 1500px;
   margin: auto;
   margin-top: 0%;
 }
@@ -409,6 +409,7 @@ span {
 .utbildning2 h2 {
   font-size: 15px;
   margin: 2%;
+  text-align: center;
 }
 
 .utbildning2 p {
