@@ -43,28 +43,46 @@ span {
 
 .site {
   display: flex;
-  border: solid yellow;
 }
 
 /* VÄNSTER */
 
 .skrivin {
   display: flex;
-  border: solid blue;
   flex-direction: column;
   height: 100%;
   width: 30%;
   background-color: #ffd5c2;
 }
 
+.line11 {
+  width: 90%;
+  margin: auto;
+  margin-top: 0%;
+  margin-bottom: 3%;
+  height: 2px;
+  border-color: black;
+  background-color: black;
+}
+
+.line12 {
+  width: 100%;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  height: 2px;
+  border-color: black;
+  background-color: black;
+}
+
 .buttons {
   display: flex;
-  margin: auto;
+  align-self: center;
+  text-align: center;
   margin-top: 2%;
   margin-bottom: 2%;
-  border: solid green;
-  width: 70%;
-  justify-content: space-between;
+  width: 90%;
+  justify-content: space-evenly;
 }
 
 .but {
@@ -77,6 +95,7 @@ span {
 
 .but:hover {
   border: solid #f28f3b;
+  box-shadow: 0px 15px 20px rgba(255, 145, 0, 0.8);
 }
 
 .but1 {
@@ -85,29 +104,62 @@ span {
   border-radius: 50%;
   background-color: white;
   border: solid black;
+  box-shadow: 0px 15px 20px rgba(100, 100, 100, 0.8);
 }
 
 .but1:hover {
   border: solid #f28f3b;
+  box-shadow: 0px 15px 20px rgba(225, 145, 0, 0.8);
 }
 
 .but2 {
-  font-size: 40px;
-  color: transparent;
+  font-size: 11px;
+  font-weight: 700;
+  font-family: "Century Gothic";
   border-radius: 50%;
-  background-color: grey;
+  background-color: gray;
   border: solid transparent;
 }
 
 .but2:hover {
   border: solid #c8553d;
+  box-shadow: 0px 15px 20px rgba(200, 85, 61, 0.8);
 }
 
 .skriv {
-  border: solid purple;
+  flex-direction: column;
   display: flex;
   width: 90%;
   margin: auto;
+  margin-bottom: 4%;
+}
+
+p {
+  font-size: 15px;
+  font-family: "Century Gothic";
+}
+
+input {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+  border: solid 1px;
+  font-family: "Century Gothic";
+}
+
+input:focus {
+  outline: solid #588b8b;
+  transition: all 0.1s ease 0s;
+}
+
+label {
+  width: 100%;
+}
+
+.image1 {
+  background-color: white;
 }
 
 /* CV */
@@ -118,4 +170,11 @@ span {
   margin: auto;
   height: 90%;
   width: 60%;
+}
+
+.uppe {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
 }
