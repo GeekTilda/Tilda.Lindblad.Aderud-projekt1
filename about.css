@@ -206,6 +206,7 @@ img {
 .fråga1 {
   display: flex;
   border: solid #588b8b 5px;
+  box-shadow: 4px 4px rgb(20, 70, 61);
   width: 35%;
   flex-wrap: wrap;
 }
@@ -232,6 +233,7 @@ img {
   border: solid #f28f3b 5px;
   flex-wrap: wrap;
   margin-bottom: 2%;
+  box-shadow: 4px 4px rgb(187, 99, 26);
 }
 
 .fråga2 h2 {
@@ -257,6 +259,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   border: solid #ffd5c2 5px;
+  box-shadow: 4px 4px rgb(247, 188, 160);
   width: 48%;
 }
 
@@ -277,6 +280,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   border: solid #c8553d 5px;
+  box-shadow: 4px 4px rgb(117, 39, 23);
   width: 48%;
 }
 

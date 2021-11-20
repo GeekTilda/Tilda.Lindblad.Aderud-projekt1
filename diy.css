@@ -137,6 +137,7 @@ span {
 .länkar {
   display: flex;
   border: solid #c8553d 5px;
+  box-shadow: 4px 4px rgb(117, 39, 23);
   width: 40%;
   justify-content: flex-start;
   flex-direction: column;
@@ -151,18 +152,19 @@ span {
 .info {
   display: flex;
   border: solid #f28f3b 5px;
+  box-shadow: 4px 4px rgb(187, 99, 26);
   width: 58%;
   flex-direction: column;
+  padding: 2%;
 }
 
 .info h1 {
   font-size: 30px;
   font-family: "Century Gothic";
-  margin: 2%;
 }
 
 .info li {
   font-size: 25px;
   font-family: "Candara";
-  margin-left: 5%;
+  margin: 1%;
 }
