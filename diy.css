@@ -168,3 +168,18 @@ span {
   font-family: "Candara";
   margin: 1%;
 }
+
+.arbets:hover {
+  color: #588b8b;
+  transition: all 0.2s ease 0s;
+}
+
+.poolia :hover {
+  color: #588b8b;
+  transition: all 0.2s ease 0s;
+}
+
+.academic :hover {
+  color: #588b8b;
+  transition: all 0.2s ease 0s;
+}
