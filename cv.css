@@ -166,10 +166,12 @@ label {
 
 .cv {
   display: flex;
+  flex-direction: column;
   border: solid 3px;
   margin: auto;
   height: 90%;
   width: 60%;
+  font-family: "Candara";
 }
 
 .uppe {
@@ -177,4 +179,83 @@ label {
   flex-direction: column;
   text-align: center;
   margin: auto;
+}
+
+.resten {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.vänster-cv {
+  word-break: break-all;
+  width: 25%;
+}
+
+.vänster-cv p {
+  font-family: "Candara";
+  font-size: 20px;
+  padding: 2%;
+}
+
+.mitten-cv {
+  padding: 2%;
+  width: 50%;
+}
+
+.mitten-cv h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.höger {
+  width: 25%;
+}
+
+.höger img {
+  width: 90%;
+  border: dotted pink;
+}
+
+.höger p {
+  font-family: "Candara";
+  font-size: 20px;
+  padding: 2%;
+}
+
+.telefon {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-left: 10%;
+  width: 80%;
+  justify-content: space-between;
+}
+
+.telefon span {
+  font-size: 15px;
+  font-family: "Century Gothic";
+  background-color: transparent;
+}
+
+.line1 {
+  width: 70%;
+  margin: auto;
+  height: 2px;
+  border-color: black;
+  background-color: black;
+}
+
+.line2 {
+  width: 60%;
+  margin: auto;
+  height: 2px;
+  border-color: black;
+  background-color: black;
+}
+
+.line3 {
+  width: 68%;
+  margin: auto;
+  height: 2px;
+  border-color: black;
+  background-color: black;
 }
